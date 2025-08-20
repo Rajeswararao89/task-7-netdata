@@ -30,40 +30,25 @@ docker run -d --name netdata \
   --security-opt apparmor=unconfined \
   --restart unless-stopped \
   netdata/netdata
+
 Verified container status using:
 
-bash
-Copy
-Edit
 docker ps
 Opened the Netdata dashboard at http://<VM_IP>:19999.
-
 Explored CPU, Memory, Disk I/O, Network, Processes, and Docker metrics.
-
 Captured screenshots for proof of implementation.
 
-📸 Project Screenshots
-CPU
+# 📸 Project Screenshots
 
+![CPU](screenshots/CPU.png)  
+![Containers & VMS](screenshots/containers%20&%20VMS.png)  
+![Dashboard](screenshots/dashboard.png)  
+![Disk](screenshots/disk.png)  
+![Docker](screenshots/docker.png)  
+![Memory](screenshots/memory.png)  
+![Network](screenshots/network.png)  
+![Storage](screenshots/storage.png)  
 
-Containers & VMs
-
-Dashboard
-
-
-Disk
-
-
-Docker
-
-
-Memory
-
-
-Network
-
-
-Storage
 
 
 📊 Key Learnings
@@ -72,15 +57,10 @@ Netdata provides real-time, lightweight monitoring with minimal setup.
 It automatically detects system and Docker metrics without manual configuration.
 
 Useful KPIs in DevOps include:
-
 CPU utilization & load average
-
 Memory usage & swap activity
-
 Disk I/O performance
-
 Network latency, errors, bandwidth
-
 Container health & resource usage
 
 ❓ Interview Prep (Q&A)
@@ -112,15 +92,9 @@ Q: What is a dashboard in this context?
 ✅ Conclusion
 Successfully deployed Netdata, monitored key system and Docker metrics, and documented the findings with screenshots. This demonstrates the ability to set up lightweight real-time monitoring for servers and applications in a DevOps environment.
 
-yaml
-Copy
-Edit
 
 ---
 
-👉 This will make your README **clean + professional + interview-ready**.  
-
-Do you also want me to format the screenshots in a **grid/table layout** (2 images side by side) instead of one below the other? That will make it look even better on GitHub.
 
 
 
