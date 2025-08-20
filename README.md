@@ -35,16 +35,17 @@ Explored CPU, Memory, Disk I/O, Network, Processes, and Docker metrics.
 
 Captured screenshots for proof of implementation.
 
-📸 Screenshots
-Metric	Screenshot
-CPU Metrics	
-Memory Usage	
-Disk I/O	
-Network Traffic	
-Processes & Apps	
-Docker Containers	
+# 📸 Project Screenshots
 
-(Rename your actual screenshot files accordingly and update here.)
+![CPU](CPU.png)  
+![Containers & VMS](containers%20&%20VMS.png)  
+![Dashboard](dashboard.png)  
+![Disk](disk.png)  
+![Docker](docker.png)  
+![Memory](memory.png)  
+![Network](network.png)  
+![Storage](storage.png)  
+
 
 📊 Key Learnings
 Netdata provides real-time, lightweight monitoring with minimal setup.
